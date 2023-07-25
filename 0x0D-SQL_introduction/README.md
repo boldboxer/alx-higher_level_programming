@@ -1,49 +1,59 @@
-**0x0D. SQL - Introduction**
+#0x0D. SQL - Introduction
 
-Resources
-Read or watch:
+##Concepts
 
-What is Database & SQL?
-A Basic MySQL Tutorial
-Basic SQL statements: DDL and DML (no need to read the chapter “Privileges”)
-Basic queries: SQL and RA
-SQL technique: functions
-SQL technique: subqueries
-What makes the big difference between a backtick and an apostrophe?
-MySQL Cheat Sheet
-MySQL 8.0 SQL Statement Syntax
-installing MySQL in Ubuntu 20.04
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
-What’s a database
-What’s a relational database
-What does SQL stand for
-What’s MySQL
-How to create a database in MySQL
-What does DDL and DML stand for
-How to CREATE or ALTER a table
-How to SELECT data from a table
-How to INSERT, UPDATE or DELETE data
-What are subqueries
-How to use MySQL functions
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be executed on Ubuntu 20.04 LTS using MySQL 8.0 (version 8.0.25)
-All your files should end with a new line
-All your SQL queries should have a comment just before (i.e. syntax above)
-All your files should start by a comment describing the task
-All SQL keywords should be in uppercase (SELECT, WHERE…)
-A README.md file, at the root of the folder of the project, is mandatory
-The length of your files will be tested using wc
-More Info
+##Resources
+
+###Read or watch:
+
+- [What is Database & SQL?](https://intranet.alxswe.com/rltoken/yyRKTEdRkYEVlRgZPbasjw)
+- [A Basic MySQL Tutorial](https://intranet.alxswe.com/rltoken/sV2PtK5YfQsXWW1malRZ5Q)
+- [Basic SQL statements: DDL and DML](https://intranet.alxswe.com/rltoken/IUKo4-UaRZSKPvXr5u9oBw) (no need to read the chapter “Privileges”)
+- [Basic queries: SQL and RA] (https://intranet.alxswe.com/rltoken/rXKvu2u7vg1Hj6bnX7UgMg)
+- [SQL technique: functions] (https://intranet.alxswe.com/rltoken/-Riv_dzSYsJyvy-LlaO6Mg)
+- [SQL technique: subqueries] (https://intranet.alxswe.com/rltoken/QpIXoR--8eBIaidgSWYsBQ)
+- [What makes the big difference between a backtick and an apostrophe?] (https://intranet.alxswe.com/rltoken/Gt0nFJPJRwW2Y0izzwbVrw)
+- [MySQL Cheat Sheet] (https://intranet.alxswe.com/rltoken/1oU1LwCksQLXjs6fZYezrw)
+- [MySQL 8.0 SQL Statement Syntax] (https://intranet.alxswe.com/rltoken/HmdmLiYBM0Q34iCYPWd9XQ)
+- [installing MySQL in Ubuntu 20.04] (https://intranet.alxswe.com/rltoken/IpYI9rgbwfjxOAQQgpHCmQ)
+
+##Learning Objectives
+* At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+**General**
+- What’s a database
+- What’s a relational database
+- What does SQL stand for
+- What’s MySQL
+- How to create a database in MySQL
+- What does DDL and DML stand for
+- How to CREATE or ALTER a table
+- How to SELECT data from a table
+- How to INSERT, UPDATE or DELETE data
+- What are subqueries
+- How to use MySQL functions
+
+**Copyright - Plagiarism**
+* You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+* You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+* You are not allowed to publish any content of this project.
+* Any form of plagiarism is strictly forbidden and will result in removal from the program.
+
+##Requirements
+###General
+* Allowed editors: vi, vim, emacs
+* All your files will be executed on Ubuntu 20.04 LTS using MySQL 8.0 (version 8.0.25)
+* All your files should end with a new line
+* All your SQL queries should have a comment just before (i.e. syntax above)
+* All your files should start by a comment describing the task
+* All SQL keywords should be in uppercase (SELECT, WHERE…)
+
+*A README.md file, at the root of the folder of the project, is mandatory
+*The length of your files will be tested using wc
+
+**More Info**
+```
 Comments for your SQL file:
 $ cat my_script.sql
 -- 3 first students in the Batch ID=3
@@ -57,8 +67,10 @@ $ sudo apt install mysql-server
 $ mysql --version
 mysql  Ver 8.0.25-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 $
-Connect to your MySQL server:
+```
+**Connect to your MySQL server:**
 
+```
 $ sudo mysql
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 11
@@ -76,9 +88,11 @@ mysql>
 mysql> quit
 Bye
 $
+```
+
 Use “container-on-demand” to run MySQL
 In the container, credentials are root/root
-
+```
 Ask for container Ubuntu 20.04
 Connect via SSH
 OR connect via the Web terminal
@@ -93,3 +107,4 @@ mysql
 performance_schema                                                                         
 sys                      
 $
+```
