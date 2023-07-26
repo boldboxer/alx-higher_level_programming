@@ -18,8 +18,8 @@
 **Extra resources around relational database model design:**
 
 - [Design](https://intranet.alxswe.com/rltoken/EWLRPeqr5sQ9AqfoG_KXxw)
-- [Normalization] (https://intranet.alxswe.com/rltoken/mqBhYoSYbhH5ZZrhDcY0kA)
-- [ER Modeling] (https://intranet.alxswe.com/rltoken/R0exkJmf-2ddKjGfa8D0dA)
+- [Normalization](https://intranet.alxswe.com/rltoken/mqBhYoSYbhH5ZZrhDcY0kA)
+- [ER Modeling](https://intranet.alxswe.com/rltoken/R0exkJmf-2ddKjGfa8D0dA)
 ## Learning Objectives
 At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/0qci3VdIVdKJXldEZ6zAjA), without the help of Google:
 
