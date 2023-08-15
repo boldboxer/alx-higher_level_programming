@@ -1,8 +1,8 @@
-#0x13. JavaScript - Objects, Scopes and Closures
+# 0x13. JavaScript - Objects, Scopes and Closures
 
-##Resources
+## Resources
 
-###Read or watch:
+### Read or watch:
 
 JavaScript object basics
 Object-oriented JavaScript (read all examples!)
@@ -17,7 +17,7 @@ Modern JS
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-##General
+## General
 * Why JavaScript programming is amazing
 * How to create an object in JavaScript
 * What this means
@@ -34,8 +34,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * You are not allowed to publish any content of this project.
 * Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
-##Requirements
-###General
+## Requirements
+### General
 * Allowed editors: vi, vim, emacs
 * All your files will be interpreted on Ubuntu 20.04 LTS using node (version 14.x)
 * All your files should end with a new line
